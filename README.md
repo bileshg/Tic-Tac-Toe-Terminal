@@ -1,12 +1,47 @@
-# Tic-Tac-Toe
+# Tic Tac Toe
 
-## Description
-This is a simple Tic-Tac-Toe game that can be played by two players. The game is played on a 3x3 grid. The first player to get 3 of their marks in a row (up, down, across, or diagonally) is the winner. If the grid is filled and neither player has 3 in a row, the game is a draw.
+This project is a simple implementation of the classic Tic Tac Toe game using Python, designed to run in the command-line interface.
 
-## How to Play
+## Table of Contents
 
-1. Clone the repository
-2. Navigate to the directory
-3. Run `python3 main.py`
-4. Follow the prompts to play the game
-5. Enjoy!
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+
+### Requirements
+
+This project requires the following dependencies:
+
+- Python 3.6+
+- Poetry
+- terminaltables
+- termcolor
+
+### Installation
+
+1. Install [Poetry](https://python-poetry.org/docs/#installation) if you haven't already.
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/bileshg/Tic-Tac-Toe-Terminal
+   ```
+3. Change to the repository directory:
+   ```bash
+   cd Tic-Tac-Toe-Terminal
+   ```
+4. Install the dependencies using Poetry:
+   ```bash
+   poetry install
+   ```
+
+### Usage
+
+1. Run the main.py file to launch the game using Poetry:
+   ```bash
+   poetry run python main.py
+   ```
+2. The command-line interface will display the Tic Tac Toe board.
+
+3. Players take turns by entering the number of the empty box they want to mark. The game will automatically detect the winner or a tie.
+
+4. Once the game ends, you can run the `main.py` file again to start a new game.
